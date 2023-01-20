@@ -3,9 +3,15 @@ Here are a few of my assembly language projects that I completed as practice and
 Quick instructions to run:
 
 Open https://peterhigginson.co.uk/LMC/
+
 Copy the content of the "MainCode" file
+
 Paste it into the left-most box of the Little Man Computer site
+
 Under "OPTIONS", set the default speed to fast
+
 Click "RUN"
+
 Enter a number
+
 See result
