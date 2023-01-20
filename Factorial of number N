@@ -1,0 +1,41 @@
+        INP
+        STA final
+        BRZ zNum
+        SUB one
+        STA iteration
+        STA counter
+        LDA final
+        STA num
+mult   LDA iteration
+        BRZ end
+        SUB one
+        BRZ end
+        LDA final
+        add num
+        STA final
+        LDA counter
+        SUB one
+        STA counter
+        SUB one
+        BRZ next
+        BRA mult
+next    LDA final
+        STA num
+        LDA iteration
+        SUB one
+        STA iteration
+        STA counter
+        SUB one
+        BRZ end
+        BRA mult
+end     LDA final
+        OUT
+        HLT
+zNum LDA one
+        OUT
+        HLT
+final          dat  0
+counter    dat 0
+one            dat 1
+iteration   dat 0
+num           dat 0
