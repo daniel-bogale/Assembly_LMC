@@ -4,7 +4,7 @@ Quick instructions to run:
 
 Open https://peterhigginson.co.uk/LMC/
 
-Copy the content of the "MainCode" file
+Copy the content of the code file
 
 Paste it into the left-most box of the Little Man Computer site
 
